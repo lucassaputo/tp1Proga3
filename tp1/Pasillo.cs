@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace tp1
 {
-    public class Class1
+    internal class Pasillo
     {
+        public int id {  get; set; }
+        public int compartimentos { get; set; }
+
     }
 }
